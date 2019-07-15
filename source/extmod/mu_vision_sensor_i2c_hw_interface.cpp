@@ -9,7 +9,7 @@
 
 MuVisionSensorI2C::MuVisionSensorI2C(MuVsI2C* i2c_port, uint32_t address)
     : MuVsI2CMethod(address),
-      i2c_port_(i2c_port){
+      i2c_port_(i2c_port) {
 }
 
 MuVisionSensorI2C::~MuVisionSensorI2C() {}
@@ -30,5 +30,4 @@ uint32_t MuVisionSensorI2C::I2CWrite(uint8_t reg_address, uint8_t value) {
   ret = i2c_port_->writeRegister((uint8_t)mu_address_<<1,reg_address,value);
   return ret;
 }
-
 
