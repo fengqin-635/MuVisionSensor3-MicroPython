@@ -144,6 +144,8 @@ def print_qstr_data(qcfgs, qstrs):
 
     # add NULL qstr with no hash or data
     print('QDEF(MP_QSTR_NULL, (const byte*)"%s%s" "")' % ('\\x00' * cfg_bytes_hash, '\\x00' * cfg_bytes_len))
+    # TODO add `` qstr with hash 0x05, data 0x00, changed by morpx
+    print('QDEF(MP_QSTR_, (const byte*)"%s%s" "")' % ('\\x05' * cfg_bytes_hash, '\\x00' * cfg_bytes_len))
 
     # go through each qstr and print it out
     for order, ident, qstr in sorted(qstrs.values(), key=lambda x: x[0]):
