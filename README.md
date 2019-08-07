@@ -7,7 +7,9 @@ MicroPython for the BBC micro:bit with MU vision sensor
 - 在官方runtime固件基础上增加了MuVisionSensor模块，适用于小Mu视觉传感器
 - 暂不支持Serial模式
 
-编译方法及通用模块参考官方文档 [https://github.com/bbcmicrobit/micropython](https://github.com/bbcmicrobit/micropython)
+Morpx官方文档：[https://morpx-docs.readthedocs.io/en/latest/MUVS3/MUVS3_MicroPython/index.html](https://morpx-docs.readthedocs.io/en/latest/MUVS3/MUVS3_MicroPython/index.html)
+
+编译方法及通用模块参考micro:bit官方文档 [https://github.com/bbcmicrobit/micropython](https://github.com/bbcmicrobit/micropython)
 
 How to use
 ==========
