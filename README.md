@@ -1,6 +1,6 @@
 [![Morpx-bbs](http://bbs.morpx.com/template/mu/images/logo.png)](http://bbs.morpx.com/forum.php)
-[![Git-rep](https://img.shields.io/github/repo-size/mu-opensource/MuVisionSensorIII-MicroPython.svg)](https://github.com/mu-opensource/MuVisionSensorIII-MicroPython)
-[![Git-release](https://img.shields.io/github/downloads/mu-opensource/MuVisionSensorIII-MicroPython/total.svg)](https://github.com/mu-opensource/MuVisionSensorIII-MicroPython/releases)
+[![Git-rep](https://img.shields.io/github/repo-size/mu-opensource/MuVisionSensor3-MicroPython.svg)](https://github.com/mu-opensource/MuVisionSensor3-MicroPython)
+[![Git-release](https://img.shields.io/github/downloads/mu-opensource/MuVisionSensor3-MicroPython/total.svg)](https://github.com/mu-opensource/MuVisionSensor3-MicroPython/releases)
 
 MicroPython for the BBC micro:bit with MU vision sensor
 =======================================================

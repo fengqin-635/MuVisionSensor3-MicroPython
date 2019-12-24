@@ -134,7 +134,7 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="MuVisionSensorIII-MicroPython.null.1431119732" name="MuVisionSensorIII-MicroPython"/>
+		<project id="MuVisionSensor3-MicroPython.null.1431119732" name="MuVisionSensor3-MicroPython"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
@@ -160,14 +160,14 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Default">
-			<resource resourceType="PROJECT" workspacePath="/MuVisionSensorIII-MicroPython"/>
+			<resource resourceType="PROJECT" workspacePath="/MuVisionSensor3-MicroPython"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 		<buildTargets>
 			<target name="build" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>yt</buildCommand>
-				<buildArguments/>
 				<buildTarget>build</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
@@ -175,7 +175,6 @@
 			</target>
 			<target name="generate_qstr" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>sh</buildCommand>
-				<buildArguments/>
 				<buildTarget>tools/makeqstrhdr.sh</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
@@ -183,5 +182,4 @@
 			</target>
 		</buildTargets>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

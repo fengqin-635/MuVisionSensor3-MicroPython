@@ -17,8 +17,15 @@
 
 #include "mu_vision_sensor_i2c_interface.h"
 #include "microbit/microbitdal.h"
-
+//@type define I2C type
 typedef MicroPythonI2C MuVsI2C;
+
+// if u want to use software wire in arduino, change include and MuVsI2C type here
+//#include <SoftwareWire.h>
+//@type define I2C type
+//typedef SoftwareWire MuVsI2C;
+
+
 // @Must public inheritance class MuVsI2CMethod
 class MuVisionSensorI2C: public MuVsI2CMethod {
  public:
@@ -39,15 +46,15 @@ class MuVisionSensorI2C: public MuVsI2CMethod {
   * @brief  I2C write byte.
   * @param  reg_address: register address.
   * @param  value: the value write to register.
-  * @retval 0: read success
+  * @retval 0: write success
   *         not 0: error
   */
   virtual uint32_t I2CWrite(uint8_t reg_address, uint8_t value) override;
 
-  private:
-    MuVsI2C* i2c_port_ = nullptr;
+ private:
+  MuVsI2C* i2c_port_ = nullptr;
 
-  protected:
+ protected:
 };
 
 #endif /* ARDUINO_LIB_MUVISIONSENSOR_SRC_MU_VISION_SENSOR_UART_HW_INTERFACE_H_ */

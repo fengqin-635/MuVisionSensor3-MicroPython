@@ -17,6 +17,26 @@
 
 #include "mu_vision_sensor_interface.h"
 
+//Error Type
+#define MU_OK                         0x00
+#define MU_FAIL                       0x01
+#define MU_WRITE_TIMEOUT              0x02
+#define MU_READ_TIMEOUT               0x03
+#define MU_CHECK_ERROR                0x04
+#define MU_UNKNOW_PARAM               0x10
+#define MU_UNKNOW_PROTOCOL            0x11
+#define MU_SLAVE_OK                   0xE0
+#define MU_SLAVE_FAIL                 0xE1
+#define MU_SLAVE_UNKNOW               0xE2
+#define MU_SLAVE_TIMEOUT              0xE3
+#define MU_SLAVE_CHECK_ERROR          0xE4
+#define MU_SLAVE_LENGTH_ERROR         0xE5
+#define MU_SLAVE_UNKNOW_COMMAND       0xE6
+#define MU_SLAVE_UNKNOW_REG_ADDRESS   0xE7
+#define MU_SLAVE_UNKNOW_REG_VALUE     0xE8
+#define MU_SLAVE_READ_ONLY            0xE9
+#define MU_SLAVE_RESTART_ERROR        0xEA
+
 class MuVsI2CMethod : public MuVsMethod {
  public:
   MuVsI2CMethod(uint32_t address);

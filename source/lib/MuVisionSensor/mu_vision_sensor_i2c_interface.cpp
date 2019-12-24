@@ -5,7 +5,7 @@
  *      Author: ysq
  */
 
-#include "extmod/mu_vision_sensor_i2c_interface.h"
+#include "inc/lib/MuVisionSensor/mu_vision_sensor_i2c_interface.h"
 
 MuVsI2CMethod::MuVsI2CMethod(uint32_t address)
     : MuVsMethod() {
